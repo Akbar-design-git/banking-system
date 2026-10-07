@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System With HTML,CSS and Javascript</title>
+    <link rel="stylesheet"  type="text/css" href="app.css">
+</head>
+<body>
+    <h1>Banking System using HTML CSS and Javascript..</h1>
+    <div id="contentbox">
+        <!--Check Balance-->
+        <div class="tasks">
+           <button onclick="navigate('balance');" class="option">Check Balance</button>
+        </div>
+        <!--Deposit Money-->
+        <div class="tasks">
+           <button onclick="navigate('deposit');" class="option">Deposit</button>
+        </div>
+           <!--Withdrawal-->
+        <div class="tasks">
+           <button onclick="navigate('withdraw');" class="option">Withdrawal</button>
+        </div>
+          <!--Deposit Money-->
+        <div class="tasks">
+           <button onclick="navigate('history');" class="option">Transactions History</button>
+        </div>
+        <div class="balance-box">
+         <p><strong>Balance:</strong></p>
+         <div id="showBalance"></div>
+        </div>
+
+    </div>
+<script src="jsClass.js"></script>
+</body>
+</html>
